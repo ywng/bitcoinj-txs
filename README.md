@@ -1,10 +1,12 @@
 ### Exercise 1
-*Vanity Address Generation*
+**Vanity Address Generation**
+
 I used the online tool [vanitygen](https://www.google.com) to generate a key pair for my vanity address.
+
 Public key: 1ngXXkZTo3Faxv4NJa4NFz2Uq9sCBYHfA
 Private key: 5JeAEtfEKV31GPQjv5JG7ydFyVTCjZtanoRru7B6cbDWRPmoh2P
 
-*Transaction to send bitcoin to my vanity address*
+**Transaction to send bitcoin to my vanity address**
 Transaction hex:
 01000000015ed53bf9284b6b068b293a19dd97eac333f69a7c673a8524ad2dc7947805562a000000006b483045022100cabfeeb0b4771dd88d842ea79fbc1f2c0f3dc3617c1efe55028bb1897915e30c0220270fdb0a9251209dda5490c4b50a2c3967e2dc9db66d1a79b0a4fe6affeec28a012102d9c6404744a6842e19ba183e0141c6d1b2fa9bab84558da90726c01f9fba4a00ffffffff0218790000000000001976a91408a3b6971957b8b50f1c658bbae32ea7a40151ea88ac841c0000000000001976a9145816a79f210b676f90088119e8a5b72ed3f8479e88ac00000000
 Broadcasted transaction hash: 
