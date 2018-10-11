@@ -1,6 +1,7 @@
-### Exercise 1 Vanity Address & P2PKH
+### Exercise 1 Vanity Address & P2PKH (mainnet)
 **Vanity Address Generation**  
-I used the online tool [vanitygen](https://www.google.com) to generate a key pair for my vanity address.  
+I used the online tool [vanitygen](https://www.google.com) to generate a key pair for my vanity address.    
+
 Public key: 1ngXXkZTo3Faxv4NJa4NFz2Uq9sCBYHfA  
 Private key: 5JeAEtfEKV31GPQjv5JG7ydFyVTCjZtanoRru7B6cbDWRPmoh2P  
 
@@ -17,7 +18,7 @@ Broadcasted transaction hash:
 96411de9e93a5de15d1ae35099e3cfa1fdd77e1b63d14cfb4bc99f6d88577f09  
 
 
-### Exercise 2 Linear Equations
+### Exercise 2 Linear Equations (testnet)
 **Input Transaction**    
 Transaction hex:  
 01000000016c32604a0b1b939be36de7e6f01add2afa2017b3e8c82d67bc4aa9cacddb2811010000006b4830450221009742d5d7298c3c715638d2b2a530c6a0c854c01c5fb784bc990d5cdd8fca69fa022062f068acb8a79eb4fac331d6fb2974a87d38abd4f88bdadb85244e10d2efe5b6012102908946f1dbcf83cd07cc74903984e4c1914917c4071eff3bbb6517fe8582e020ffffffff0240420f00000000000c6e9302810788949002d3018787f64f02000000001976a914857ac5a3b79d6b4f0670c8a47f4df64c9b50906588ac00000000  
@@ -31,7 +32,7 @@ Broadcasted transaction hash:
 1e396d692228d435366ce1af17d36ace5de4856e0507815b874d06e866da72f2
 
 
-### Exercise 3 Multi-Sig Transaction
+### Exercise 3 Multi-Sig Transaction (testnet)
 **Input Transaction**    
 Transaction hex:  
 0100000001482398cf84cbf6ad4c83fb13521ec03a9e39e796be38bb2fc9985703f3fffc52000000006a473044022070238d313d5db97933aed02d41ddae01767fb30cfe2369178a34db4099570ce80220108c100f7b5e0ec4e1ea8840b01b3ab298cba2f97131e88d8999b4be95129972012103e480613610c0f935406de9fd0cd324e10563c21ce0fe6f104a9e836d41ec5efdffffffff02afca9600000000001976a914d3b16a1f68d86f7eb1aa710f5b024d9a9e1a4c8b88ac40420f00000000008c2103fcd609c5acde61e9e995c32206f774da889467a07f9cc6205e8c0367ba51bf02ad5121035603e3a336359a2f73597b7694681ae50d4a595ccf7f0e3604acee4fe9f9eb2c210274708da9a7008b39c0963b60fb13b7549fd255cc1a08265bf17f9c8205b1ed962103a1804795ae8ced8fd5118b0280bdde8fd2027cdac48036707c741e2d46f241fb53ae00000000  
