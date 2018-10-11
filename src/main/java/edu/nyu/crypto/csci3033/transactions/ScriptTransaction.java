@@ -81,8 +81,8 @@ public abstract class ScriptTransaction implements AutoCloseable {
 
     public Transaction createUnsignedRedemptionTransaction(TransactionOutput output, Address receiveAddress) throws InsufficientMoneyException {
         Transaction newTransaction = new Transaction(parameters);
-        //newTransaction.addOutput(output.getValue().subtract(Coin.MILLICOIN.multiply(2)), receiveAddress);
-        newTransaction.addOutput(output.getValue().subtract(Coin.MICROCOIN.multiply(5)), receiveAddress);
+        newTransaction.addOutput(output.getValue().subtract(Coin.MILLICOIN.multiply(2)), receiveAddress);
+        //newTransaction.addOutput(output.getValue().subtract(Coin.MICROCOIN.multiply(5)), receiveAddress);
         newTransaction.addInput(output);
         return newTransaction;
     }

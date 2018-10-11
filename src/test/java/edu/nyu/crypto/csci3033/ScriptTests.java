@@ -74,8 +74,8 @@ public class ScriptTests {
 
     private void testTransaction(ScriptTransaction scriptTransaction) throws InsufficientMoneyException {
         final Script inputScript = scriptTransaction.createInputScript();
-        //Transaction transaction = scriptTransaction.createOutgoingTransaction(inputScript, Coin.CENT);
-        Transaction transaction = scriptTransaction.createOutgoingTransaction(inputScript, Coin.MICROCOIN.multiply(310));
+        Transaction transaction = scriptTransaction.createOutgoingTransaction(inputScript, Coin.CENT);
+        //Transaction transaction = scriptTransaction.createOutgoingTransaction(inputScript, Coin.MICROCOIN.multiply(310));
         TransactionOutput relevantOutput = transaction.getOutputs().stream().filter(to -> to.getScriptPubKey().equals(inputScript)).findAny().get();
         Transaction redemptionTransaction = scriptTransaction.createUnsignedRedemptionTransaction(relevantOutput, scriptTransaction.getReceiveAddress());
         Script redeemScript = scriptTransaction.createRedemptionScript(redemptionTransaction);
@@ -96,6 +96,7 @@ public class ScriptTests {
         }
     }
 
+    // ****Testable only on mainnet because we hardcoded the mainnet private key****
     // TODO: Uncomment this when you are ready to test PayToPubKeyHash.
     @Test
     public void testPayToPubKeyHash() throws InsufficientMoneyException {
