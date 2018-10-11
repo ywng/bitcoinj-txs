@@ -1,4 +1,4 @@
-### Exercise 1
+### Exercise 1 Vanity Address & P2PKH
 **Vanity Address Generation**  
 I used the online tool [vanitygen](https://www.google.com) to generate a key pair for my vanity address.  
 Public key: 1ngXXkZTo3Faxv4NJa4NFz2Uq9sCBYHfA  
@@ -16,160 +16,30 @@ Transaction hex:
 Broadcasted transaction hash:  
 96411de9e93a5de15d1ae35099e3cfa1fdd77e1b63d14cfb4bc99f6d88577f09  
 
-### Exercise 2
+
+### Exercise 2 Linear Equations
+**Input Transaction**    
+Transaction hex:  
+01000000016c32604a0b1b939be36de7e6f01add2afa2017b3e8c82d67bc4aa9cacddb2811010000006b4830450221009742d5d7298c3c715638d2b2a530c6a0c854c01c5fb784bc990d5cdd8fca69fa022062f068acb8a79eb4fac331d6fb2974a87d38abd4f88bdadb85244e10d2efe5b6012102908946f1dbcf83cd07cc74903984e4c1914917c4071eff3bbb6517fe8582e020ffffffff0240420f00000000000c6e9302810788949002d3018787f64f02000000001976a914857ac5a3b79d6b4f0670c8a47f4df64c9b50906588ac00000000  
+Broadcasted transaction hash:   
+97233f23805fe546a21141764eff2b9db572e67d5dfc7f581b23bb9775976ce3  
+
+**Redemption transaction**  
+Transaction hex:  
+0100000001e36c977597bb231b587ffc5d7de672b59d2bff4e764111a246e55f80233f2397000000000602aa0402d702ffffffff0100350c00000000001976a914266138f7e5c17360d4350c6ea91e66405c892be688ac00000000  
+Broadcasted transaction hash:   
+1e396d692228d435366ce1af17d36ace5de4856e0507815b874d06e866da72f2
 
 
-### Exercise 3
+### Exercise 3 Multi-Sig Transaction
+**Input Transaction**    
+Transaction hex:  
+0100000001482398cf84cbf6ad4c83fb13521ec03a9e39e796be38bb2fc9985703f3fffc52000000006a473044022070238d313d5db97933aed02d41ddae01767fb30cfe2369178a34db4099570ce80220108c100f7b5e0ec4e1ea8840b01b3ab298cba2f97131e88d8999b4be95129972012103e480613610c0f935406de9fd0cd324e10563c21ce0fe6f104a9e836d41ec5efdffffffff02afca9600000000001976a914d3b16a1f68d86f7eb1aa710f5b024d9a9e1a4c8b88ac40420f00000000008c2103fcd609c5acde61e9e995c32206f774da889467a07f9cc6205e8c0367ba51bf02ad5121035603e3a336359a2f73597b7694681ae50d4a595ccf7f0e3604acee4fe9f9eb2c210274708da9a7008b39c0963b60fb13b7549fd255cc1a08265bf17f9c8205b1ed962103a1804795ae8ced8fd5118b0280bdde8fd2027cdac48036707c741e2d46f241fb53ae00000000  
+Broadcasted transaction:    
+42175bb1a2127606a960a7bfacbddb277e4c860599078626aeb9e3ad56952db7    
 
-
-
-
-15:10:38.748 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - You've got 0.00061 BTC in your pocket
-Address from private key is: [B@7219ec67
-15:10:39.107 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000015ed53bf9284b6b068b293a19dd97eac333f69a7c673a8524ad2dc7947805562a000000006b483045022100cabfeeb0b4771dd88d842ea79fbc1f2c0f3dc3617c1efe55028bb1897915e30c0220270fdb0a9251209dda5490c4b50a2c3967e2dc9db66d1a79b0a4fe6affeec28a012102d9c6404744a6842e19ba183e0141c6d1b2fa9bab84558da90726c01f9fba4a00ffffffff0218790000000000001976a91408a3b6971957b8b50f1c658bbae32ea7a40151ea88ac841c0000000000001976a9145816a79f210b676f90088119e8a5b72ed3f8479e88ac00000000
-15:10:39.220 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 63d173ff2f7f366174117c041b027bb1fc12115a2410c4e874381c6f05400318
-15:10:39.221 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001180340056f1c3874e8c410245a1112fcb17b021b047c117461367f2fff73d163000000008b483045022100b948874a254cce1d8b3f86dbb2f66f63c721c1f8143ef606a3fabbd9ff114f3f02203a1ed05f009de74242a747dd8741367d2592511e8f0672150497f863d2b0247b014104aae139d2b0ae27003c50337356843604f784e2b31f3a902fd01fc3e7b3cd1191b471914ab124527be1b11e3eb2e79b5fe35fc1780d2616b549932716e86f3d88ffffffff0124770000000000001976a91455fc7921625eb15c162f4bd8ee382fc5b4031e7988ac00000000
-15:10:39.290 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 96411de9e93a5de15d1ae35099e3cfa1fdd77e1b63d14cfb4bc99f6d88577f09
-
-================
-
-We sent 0.39816287 bitcoins to address
-mhmvMwNvZpzU9KfbrvwWQm1NLayaqu3A3Q
-
-tx: 1128dbcdcaa94abc672dc8e8b31720fa2add1af0e6e76de39b931b0b4a60326c
-Send coins back, when you don't need them anymore to the address
-
-mv4rnyY3Su5gjcDNzbMLKBQkBicCtHUtFB
-
-======lin eq===
-13:26:32.494 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000016c32604a0b1b939be36de7e6f01add2afa2017b3e8c82d67bc4aa9cacddb2811010000006b4830450221009742d5d7298c3c715638d2b2a530c6a0c854c01c5fb784bc990d5cdd8fca69fa022062f068acb8a79eb4fac331d6fb2974a87d38abd4f88bdadb85244e10d2efe5b6012102908946f1dbcf83cd07cc74903984e4c1914917c4071eff3bbb6517fe8582e020ffffffff0240420f00000000000c6e9302810788949002d3018787f64f02000000001976a914857ac5a3b79d6b4f0670c8a47f4df64c9b50906588ac00000000
-13:26:32.514 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 97233f23805fe546a21141764eff2b9db572e67d5dfc7f581b23bb9775976ce3
-13:26:32.514 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001e36c977597bb231b587ffc5d7de672b59d2bff4e764111a246e55f80233f2397000000000602aa0402d702ffffffff0100350c00000000001976a914266138f7e5c17360d4350c6ea91e66405c892be688ac00000000
-13:26:32.573 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 1e396d692228d435366ce1af17d36ace5de4856e0507815b874d06e866da72f2
-
-
-
-====pay to pub key= ======
-13:53:42.920 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - You've got 0.39594887 BTC in your pocket
-13:53:43.045 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001e36c977597bb231b587ffc5d7de672b59d2bff4e764111a246e55f80233f2397010000006a47304402205da6d547eca9a45a9db429df4a20b47532e3d05bced8677fbe5082fc15779fbd02201c49821ae14a910dc42aab6ba1df4ae86efc56f7cd23da9c1bf4e506563c50b101210340e235f1260fdf3ab17ccc224a11458444d3e282b5f373f583aaf5c1acb5e8d1ffffffff0240420f0000000000232102b148895c2b6c5e89561e4807109c5b98daaa889a7ecc4d085ffb07d5dbaf1046acb3574002000000001976a914c55b3a1ad6782f85fe1a53d77d0cb08f7f25ef3d88ac00000000
-13:53:43.055 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: dc3675820386f013e9be1cc338cd64d2cf520c256ca8efb9db2511bd53e08574
-13:53:43.055 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000017485e053bd1125dbb9efa86c250c52cfd264cd38c31cbee913f08603827536dc000000004847304402201db712a538ec5fa0e9efb0c6b65528a1273c1062c7a33c4237bc4967c6963e950220662be8f7d39cbd4e35c4f2475324e742fba9ab988c37d7db3b45b19e32afc9d901ffffffff0100350c00000000001976a914f59ed388a9d69244290528ced11bee5653a03c0c88ac00000000
-13:53:43.065 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: de1c329e2d7a39fea2e05058ef524d68a320ffe828588d578fad91a248dfaf4c
-
-
-====pay to public key hash ====
-14:23:13.178 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000017485e053bd1125dbb9efa86c250c52cfd264cd38c31cbee913f08603827536dc010000006b483045022100d7c86315fc016b4075061e829cd666a564506b555d8f1c45dd7522b3cb20abcb02207e98e0ae57e0241117b37bb835fcdd93b1a7bd88dd311c5fbef6a7f1cbd5482b0121026f4ac2ddda2c4504550943d5d879f287b66d639a56a323389a4d6c8f1d99bd1cffffffff02c7bc3002000000001976a9140154a5bb830ca8585978714dcded6c0f671cf6b088ac40420f00000000001976a91483372b4af43052533172ffb8241ad02e150fdf9688ac00000000
-14:23:13.192 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 14ceeaf1a72ff65319a557b9d0df15bfa405b3e816be04b1636fe522b3216ade
-14:23:13.192 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001de6a21b322e56f63b104be16e8b305a4bf15dfd0b957a51953f62fa7f1eace14010000006a473044022014cc168246de50962133b2fbfa31df4895f73b3364282da3f2eb410a7a7bc540022009fa63e25f2d74bcc291f7e2798380a13db1f5c2674049deae75cde8c84f7d5101210382733316c65686e767ca9439f36e7aaa5a2e7a52235cf801e69324b1d9605770ffffffff0100350c00000000001976a914448e60ef0694f8ffaf6f7a0ad213022796461ffc88ac00000000
-14:23:13.203 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: b4fcd9a232eca6f2dcffac45fbce990caf6cedee0b096269feba96645036d4b1
-
-
-
-=====multi sig transaction=====
-13:22:51.063 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - You've got 0.13550687 BTC in your pocket
-13:22:51.336 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000016c8a0fb5de3ebefe93ebb862cafbf3fcbff23a1b01af0ac0203d0c028870269c010000006b483045022100c9d5479eaa66a22f3ae0a3afc7c8f7dede0cf532d3380c09add52d9ce86ebc99022073f813423b0e00dd32ec573187e863e434d02a3f4f1c423317e67483d15643fa012102bbfb36793c3cc18accd97ac7eddccaae9e1d899305c8834019515d1f62b4c831ffffffff028792a600000000001976a9143e361bf3262832dbe12a7eea91b6862412b037a288ac40420f00000000008c21023fcff894c0a9aa5d7c2a6229b07990e13b77f1fec6e817150a30000abc768babad5121034075f06c0fd3d2442fb70f130a803b68fe960c60f3b3e90f7a4ac17b0ff9b9312103554b1659286488c17927e0ea4e4e93182c816acb0de0661204ae4bda88486cf02103ccde7eb7eff4aa3f7f7f407b86a442dbe65d889192b921eff40c4be3b330ae1e53ae00000000
-13:22:51.347 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 52fcfff3035798c92fbb38be96e7399e3ac01e5213fb834cadf6cb84cf982348
-13:22:51.347 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001482398cf84cbf6ad4c83fb13521ec03a9e39e796be38bb2fc9985703f3fffc520100000093514830450221009a497098a5c06aef6d396ec0cf09787e1bb305fb6639822a308439a10f3362b602202173e159ab08c0d734bd5b61a416cb0bfdd3a428f111c963f0e212d2e8c13d0201483045022100cc7a8eaa0bd282081211c28df98289f23264ab180ac2275e783e25513d586e64022036f68fdd071c4a8a8b92103f16109854e130d14e925f495b7a796068f9bee0a601ffffffff0100350c00000000001976a91472671627dcc639730228a15a800684b5c2bf9fdd88ac00000000
-13:22:51.362 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 40fd58062ea83509f633e32d0812f4d16a3d6f90aa281c0345f41edba90683a9
-
-
-
-13:32:44.853 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000024f63c82c4a7c8a3f3f0c0a32b81e45a06f183492e3b9b082bf7021d0ba717f04000000006a4730440221008358e9a0ef0e0b86c1cc7cbb16f1d3a16f04d91efcde0336c028484e3c18b437021f12a3699e03f3368c6b8e0163265a60199b2f758345d24ddb023aac0b14cebf012103520fcb2a7cc54eac6fb03297a139abee08501f8c650fcf039ba61fc322e3764bffffffffa98306a9db1ef445031c28aa906f3d6ad1f412082de333f60935a82e0658fd40000000006a473044022004e103075257091de31b5763ed27b3780ee13ab6e18ede01b18b3f1cecd5ee82022003b9a95f4b3c179a442f2417724407d0f98ce56cb81296f2a3a33b8eb64be9580121020d31fef304fbbbeb632e7a2bf17fd40266a982a6c54ec8e445c4211535ddf3dcffffffff0240420f00000000008c2103814127d616edcec06ecb2142bf14925223a5779c916d3f970684d9a8c0533740ad51210300b92e87f45f3722d99faa9d4c01a8ce3f557103147b2410dab62a66dcc30e4921038426fe64d4730cb4f94f88275e5d29bd5e147d6634945d1e5dbd00b14a96b0af21039ed319b55323bcef3b6c5e10870546384261305e631d008c7981a68c1d4313ca53aef4670800000000001976a91472713fd81bac59c643df4836b81f76bd18cb511388ac00000000
-13:32:44.866 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 32af7252bea2bb7209396acfd2e0455bc8f0d1fe5f80e4f7319455357106c5f7
-13:32:44.866 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001f7c5067135559431f7e4805ffed1f0c85b45e0d2cf6a390972bba2be5272af32000000009351483045022100d806b8bed5b16e79949baddf7e6eb9d12c9759d172171ec2cad3355759191ef602204b482ca5d683943231eba25304f0d0808420a20045d2aec592b9841e1b3c013e01483045022100872207826797cb27a886860dce3cb629d5c9441e471b8e4fd0558906a2f68fc20220138b286215ad7d05514e8e2472ce4c6f15c2e125cd32ab9e59e9f32f45d6afc901ffffffff0100350c00000000001976a9144935afb0e9d21ca88cf54439785c11710436647e88ac00000000
-13:32:44.872 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 4308a4f352f48755afb3db82d948900867de96892be121fc354d3352bdbdae9b
-
-
-===should be working====
-13:57:14.519 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001482398cf84cbf6ad4c83fb13521ec03a9e39e796be38bb2fc9985703f3fffc52000000006a473044022070238d313d5db97933aed02d41ddae01767fb30cfe2369178a34db4099570ce80220108c100f7b5e0ec4e1ea8840b01b3ab298cba2f97131e88d8999b4be95129972012103e480613610c0f935406de9fd0cd324e10563c21ce0fe6f104a9e836d41ec5efdffffffff02afca9600000000001976a914d3b16a1f68d86f7eb1aa710f5b024d9a9e1a4c8b88ac40420f00000000008c2103fcd609c5acde61e9e995c32206f774da889467a07f9cc6205e8c0367ba51bf02ad5121035603e3a336359a2f73597b7694681ae50d4a595ccf7f0e3604acee4fe9f9eb2c210274708da9a7008b39c0963b60fb13b7549fd255cc1a08265bf17f9c8205b1ed962103a1804795ae8ced8fd5118b0280bdde8fd2027cdac48036707c741e2d46f241fb53ae00000000
-13:57:14.538 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 42175bb1a2127606a960a7bfacbddb277e4c860599078626aeb9e3ad56952db7
-13:57:14.538 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001b72d9556ade3b9ae2686079905864c7e27dbbdacbfa760a9067612a2b15b174201000000920100473044022036ff9a7413e383eebcd658a4b3b03f4b6265ca76fed2209c71640ca69f827aba02202c9d3e8e8d2c1e7db59eb4d80958e26997de0218cb4f7fe46f4c76da6bc51fe60147304402202741be72b9e9d5a60927e23b05bfdffb9c72485d30abb769dcc626c8ddededdd02207862e3550d2241d2e470511f7d9471d00b41907a93c8223ab08bea8f7558817401ffffffff0100350c00000000001976a9144e26bff03bea9331b43d32ab06abbabaf0928faa88ac00000000
-13:57:14.551 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: d9df0e9f33eb034f3b6d8f27b802cadc662cc6c1d43324d3dc82a17b9d118551
-
-1ngXXkZTo3Faxv4NJa4NFz2Uq9sCBYHfA
-17bvHAmxbNxtoX5PowjBdtCQLbphYb97ux
-mr65B4Y8C5bubfDiRxU5i27jMMgqSfank3
-miV1zPRZ9GCJqckQSAKf4eCHdLbw3XpMRJ
-1VanityeNpkB3BwFXCDynrejjQYpyDTz7
-mr65B4Y8C5bubfDiRxU5i27jMMgqSfank3
-1BoatSLRHtKNngkdXEeobR76b53LETtpyT
-
-at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
-18:16:01.914 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001b31854ade8dcd0044b0d76fa2d2511255f8738da95566fc43baa791c81554657010000006a47304402203cdc6c1e50e7dbe0e933a92b23c51e3d4829b33e00a95bcfef641593b239350902201f4bbe04fcd5b32a656c3e624fda93b0e5601938e6fbff4b40ea192f4148a0fd0121038677b5ab2300c836e13bbf3d1a2bda7619e22cad8698ee162521e4e2dfa79590ffffffff0240420f00000000008c2102374f15dcef0935ebfe5cb34894c29521c09aede5f1a9a1cfa235894bb75581f7ad512103abc067ca865e828f4cc712deb1cd7cfbe356c1bb67ae2c2b2132c6ff9836348c210350cc886d24bd98848a306d76c34be3992107489f9f98f7b99e44cec6fde097952103c56dfa8a9cdee6b5e6033627e9c95e5d0c1201227b48a7890901fc3a681e08e253aeff3a7700000000001976a914cbb1244cfdf687f2f444e2c8d3e0e61ba7cb817e88ac00000000
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Performing thread fixup: you are accessing bitcoinj via a thread that has not had any context set on it.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Performing thread fixup: you are accessing bitcoinj via a thread that has not had any context set on it.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - This error has been corrected for, but doing this makes your app less robust.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - This error has been corrected for, but doing this makes your app less robust.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - You should use Context.propagate() or a ContextPropagatingThreadFactory.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - You should use Context.propagate() or a ContextPropagatingThreadFactory.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Please refer to the user guide for more information about this.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Please refer to the user guide for more information about this.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Thread name is bitcoinj user thread.
-18:16:01.929 [bitcoinj user thread] ERROR org.bitcoinj.core.Context - Thread name is bitcoinj user thread.
-18:16:01.961 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.nio.channels.CancelledKeyException 
-java.nio.channels.CancelledKeyException
-	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73) ~[?:1.8.0_101]
-	at sun.nio.ch.SelectionKeyImpl.readyOps(SelectionKeyImpl.java:87) ~[?:1.8.0_101]
-	at java.nio.channels.SelectionKey.isWritable(SelectionKey.java:312) ~[?:1.8.0_101]
-	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:229) [bitcoinj-core-0.14.5.jar:?]
-	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.14.5.jar:?]
-	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.14.5.jar:?]
-	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-18.0.jar:?]
-	at com.google.common.util.concurrent.Callables$3.run(Callables.java:95) [guava-18.0.jar:?]
-	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:49) [bitcoinj-core-0.14.5.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
-18:16:01.961 [NioClientManager] WARN  org.bitcoinj.net.ConnectionHandler - Error handling SelectionKey: java.nio.channels.CancelledKeyException 
-java.nio.channels.CancelledKeyException
-	at sun.nio.ch.SelectionKeyImpl.ensureValid(SelectionKeyImpl.java:73) ~[?:1.8.0_101]
-	at sun.nio.ch.SelectionKeyImpl.readyOps(SelectionKeyImpl.java:87) ~[?:1.8.0_101]
-	at java.nio.channels.SelectionKey.isWritable(SelectionKey.java:312) ~[?:1.8.0_101]
-	at org.bitcoinj.net.ConnectionHandler.handleKey(ConnectionHandler.java:229) [bitcoinj-core-0.14.5.jar:?]
-	at org.bitcoinj.net.NioClientManager.handleKey(NioClientManager.java:86) [bitcoinj-core-0.14.5.jar:?]
-	at org.bitcoinj.net.NioClientManager.run(NioClientManager.java:122) [bitcoinj-core-0.14.5.jar:?]
-	at com.google.common.util.concurrent.AbstractExecutionThreadService$1$2.run(AbstractExecutionThreadService.java:60) [guava-18.0.jar:?]
-	at com.google.common.util.concurrent.Callables$3.run(Callables.java:95) [guava-18.0.jar:?]
-	at org.bitcoinj.utils.ContextPropagatingThreadFactory$1.run(ContextPropagatingThreadFactory.java:49) [bitcoinj-core-0.14.5.jar:?]
-	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_101]
-18:16:01.969 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: aff9e4f96c5382cb18defcef81e49ec8327a22c36b3fb05e7fea29419cc2c9eb
-18:16:01.969 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001ebc9c29c4129ea7f5eb03f6bc3227a32c89ee481effcde18cb82536cf9e4f9af000000009251473044022052d9dd81434cefbe0e88b77287053b94928a17126b5dfea247ad5c0bfb1dfcbd022074c68f986f0bb7e7e192c60c97400e661bc0f57b5a4bf922287ac1b57f53ef55014830450221009762082a0e186fbc3b337a38429c9bd57ea76cb0b3c93e450c61274b43d6aa9b02204a62ef1b91077cf558f93582a6ca7c36fa33656ccb228f964a6f573eba30d3eb01ffffffff0100350c00000000001976a914e5370fdc1b276bb130ad9496d87d6f2b7a76cb5988ac00000000
-18:16:01.983 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 41b496800476c2e9167789f877bfd6d1cba4c6fd72919c32c09a890c6c0d2738
-
-
-
-======broadcast trans seperately===
-18:45:02.312 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - You've got 0.23481331 BTC in your pocket
-18:45:03.216 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-010000000155b10c96483de933de534b9ada29bbc7cfd54af00cea6b191bd35a02cf5971c3010000006a473044022003fa203952827902f8e62e4424360a664c3fe214bc609ef7255dbca8e41da97402201e604c6983a6c282b54e577c06e8301f95cd489f55db5165ba8bf1dfcfea044901210371fca4db2b87fee4e0ccb98f7d6836b0c0773ba08ba727924f6cc8018dcbe2b8ffffffff0234a59d00000000001976a9143d87a2bceea64f13a67201ad5e627146272b917988ac40420f00000000008c2102aa3e6c8c928e40aebd90ba85fd7833759b4db9098af0431c6645f52f792ac9c5ad512102d2f0d18b0f4fe7080f2f52842dd175f7df4bbb35a29d263ae9705d1f4879837521022e98385d0ebc60aaee2233eb04db032ca9e9743c6028312f38d39fdb696064402103a0b7556d7d874fc3fe9c0050939279fc55d69e3ed4d31e13234ad6ff5f97b9ac53ae00000000
-18:45:03.232 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: e2cf7de735509c6adfdb6a72d9a6f90da879906ad700a29175c814290f976afe
-18:45:03.232 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001fe6a970f2914c87591a200d76a9079a80df9a6d9726adbdf6a9c5035e77dcfe2010000009201004730440220429b90cb5d6bf9db4a56edd1f71380121461848e69180a8a79654b548b0aac8702205c3f6b16b343c669a29760b09881b98ffba6f524f100ac6d673deb934b102f3c0147304402203a0e432afefea778743778e1c881c15c29a1afa925e205f223e8915c1b283f3a0220702cafc47d3908bbc97fd0ebc1b878fdaf86f0d7ed15d0ea75b7fc23db05cf1701ffffffff0100350c00000000001976a91407b90d640fc418df44fd885f79958f847057b3ca88ac00000000
-18:45:03.248 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: b932c13f6bff2951b4e1a7d7e23ecbad0002910dfe0309ebf26ad7d1f3603335
-
-
-
-====higher fee =====
-10:05:37.418 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Synced blockchain.
-10:05:37.418 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - You've got 0.23247131 BTC in your pocket
-10:05:37.737 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-0100000001fe6a970f2914c87591a200d76a9079a80df9a6d9726adbdf6a9c5035e77dcfe2000000006b483045022100d7eef91ea24d19f9be13738bf30565c9efc735ded291c16ea48f18c4bb02224902202867443fd405c39251a5cdee655e99faff3a13b123a75544fb3c2d8dfa16712f01210353058d0fe919a47cdf0a1f0957509515eb93602619089e898a6ec9f8e0a136a3ffffffff025cdd8d00000000001976a9148e03680650fa1790fc7ea55694d0a538a0ef21b688ac40420f00000000008c210305d65c2969455837c7a6fc001932c54b37f68d41c2be482c9d725ffab31a6291ad512103e445e26e5c45b22ec3d4898dad60b36f0b5a91e5bed0d0de3b89306ce532873f210337a8b6c6e01fef2a5d6b753d41a7e8d1f9b5a44c1413ea66717ec11cf4f0d6cf2103e6ce87ccb4a760f2c2c7f8eec0b58f25395709519dd7ba871b60c2cb788159b353ae00000000
-10:05:37.744 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: 329f3f3e43d4e3a1862bc0cffd1d9a58a9fb59a957342d8d2745531069b01988
-10:05:37.744 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Transaction hex you can directly submit this to a block explorer:
-01000000018819b069105345278d2d3457a959fba9589a1dfdcfc02b86a1e3d4433e3f9f3201000000940100483045022100ff68ef740f370e11a3874ed142f1ca5eac37658ed64fbe2ed9c8a4876f5445ef0220651b6d0cc3eb67f6bfb441717da1407260f603c7571bcb5e2ee1996267efea1601483045022100a497dfae317aa288bcbc210733752086a9b1ee1bfd142992e43e50ba96bd40380220159c3b342efd5efa987d5e72aa010476f5b446d2564cbcf8b13b85b31c683d0201ffffffff0120a10700000000001976a9149058f72b193209eedc1f479e96ae35381cba9d5d88ac00000000
-10:05:37.754 [main] INFO  edu.nyu.crypto.csci3033.transactions.ScriptTransaction - Broadcasted transaction: d67da1c5889f4ea80cf12a0a1f49574503f0275abd803ee48b0b1d9a5017d49b
-
+**Redemption transaction**    
+Transaction hex:   
+0100000001b72d9556ade3b9ae2686079905864c7e27dbbdacbfa760a9067612a2b15b174201000000920100473044022036ff9a7413e383eebcd658a4b3b03f4b6265ca76fed2209c71640ca69f827aba02202c9d3e8e8d2c1e7db59eb4d80958e26997de0218cb4f7fe46f4c76da6bc51fe60147304402202741be72b9e9d5a60927e23b05bfdffb9c72485d30abb769dcc626c8ddededdd02207862e3550d2241d2e470511f7d9471d00b41907a93c8223ab08bea8f7558817401ffffffff0100350c00000000001976a9144e26bff03bea9331b43d32ab06abbabaf0928faa88ac00000000  
+Broadcasted transaction:   
+d9df0e9f33eb034f3b6d8f27b802cadc662cc6c1d43324d3dc82a17b9d118551
